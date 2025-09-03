@@ -10,6 +10,24 @@ public class RomanConverter
 
         while (number > 0)
         {
+            if(number >= 1000)
+            {
+                result += "M";
+                number -= 1000;
+                continue;
+            }
+            if (number>= 500)
+            {
+                result += "D";
+                number -= 500;
+                continue;
+            }
+            if (number>= 100)
+            {
+                result += "C";
+                number -= 100;
+                continue;
+            }
             if (number>= 50)
             {
                 result += "L";
