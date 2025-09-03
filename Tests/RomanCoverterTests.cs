@@ -41,4 +41,11 @@ public class RomanConverterTests
         Assert.AreEqual("V", converter.ToRoman(5));
     }
     
+    [Test]
+    public void SixIsVI()
+    {
+        var converter = new RomanConverter();
+        Assert.AreEqual("VI", converter.ToRoman(6));
+    }
+    
 }
