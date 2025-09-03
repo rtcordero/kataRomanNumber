@@ -35,6 +35,7 @@ public class RomanConverterTests
     [TestCase(28, "XXVIII")]
     [TestCase(29, "XXIX")]
     [TestCase(30, "XXX")]
+    [TestCase(40, "XL")]
     [TestCase(50, "L")]
     [TestCase(60, "LX")]
     [TestCase(100, "C")]

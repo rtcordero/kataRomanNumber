@@ -28,11 +28,15 @@ public class RomanConverter
                     result += "L";
                     number -= 50;
                     continue;
+                case >= 40: //Sustracción
+                    result += "XL";
+                    number -= 40;
+                    continue;
                 case >= 10:
                     result += "X";
                     number -= 10;
                     continue;
-                case >= 9:
+                case >= 9: //Sustracción
                     result += "IX";
                     number -= 9;
                     continue;
@@ -40,7 +44,7 @@ public class RomanConverter
                     result += "V";
                     number -= 5;
                     continue;
-                case >= 4:
+                case >= 4: //Sustracción
                     result += "IV";
                     number -= 4;
                     continue;
