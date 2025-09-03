@@ -6,19 +6,15 @@ public class RomanConverter
     {
         // lógica para convertir número a romano
         
-        if (number == 1)
+        var result = "";
+
+        for (int i = 0; i < number; i++)
         {
-          return "I";  
+            result += "I";
         }
-        if (number == 2)
-        {
-          return "II";  
-        }
-        if (number == 3)
-        {
-          return "III";  
-        }
-        return "";
+            
+
+        return result;
         
     }
 }
