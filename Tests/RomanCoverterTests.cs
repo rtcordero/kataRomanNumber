@@ -11,6 +11,11 @@ public class RomanConverterTests
     [TestCase(4, "IV")]
     [TestCase(5, "V")]
     [TestCase(6, "VI")]
+    [TestCase(7, "VII")]
+    [TestCase(8, "VIII")]
+    [TestCase(9, "IX")]
+    [TestCase(10, "X")]
+    
     public void ConvertsNumberToRoman(int number, string expected)
     {
         var converter = new RomanConverter();
