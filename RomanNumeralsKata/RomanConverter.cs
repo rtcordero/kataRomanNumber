@@ -16,9 +16,17 @@ public class RomanConverter
                     result += "M";
                     number -= 1000;
                     continue;
+                case >= 900: //Sustracción
+                    result += "CM";
+                    number -= 900;
+                    continue;
                 case >= 500:
                     result += "D";
                     number -= 500;
+                    continue;
+                case >= 400: //Sustracción
+                    result += "CD";
+                    number -= 400;
                     continue;
                 case >= 100:
                     result += "C";

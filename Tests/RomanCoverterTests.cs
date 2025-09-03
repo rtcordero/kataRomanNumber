@@ -49,9 +49,14 @@ public class RomanConverterTests
     [TestCase(60, "LX")]
     [TestCase(90, "XC")]
     [TestCase(100, "C")]
+    [TestCase(200, "CC")]
+    [TestCase(400, "CD")]
     [TestCase(500, "D")]
+    [TestCase(900, "CM")]
+    [TestCase(944, "CMXLIV")]
     [TestCase(1000, "M")]
-    
+    [TestCase(2000, "MM")]
+    [TestCase(3999, "MMMCMXCIX")]
     public void ConvertsNumberToRoman(int number, string expected)
     {
         var converter = new RomanConverter();
