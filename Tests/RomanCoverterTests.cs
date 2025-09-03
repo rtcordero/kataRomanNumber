@@ -57,6 +57,7 @@ public class RomanConverterTests
     [TestCase(1000, "M")]
     [TestCase(2000, "MM")]
     [TestCase(3999, "MMMCMXCIX")]
+    [TestCase(0, "")]
     public void ConvertsNumberToRoman(int number, string expected)
     {
         var converter = new RomanConverter();
