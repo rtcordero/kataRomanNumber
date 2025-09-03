@@ -5,47 +5,16 @@ namespace Tests;
 [TestFixture]
 public class RomanConverterTests
 {
-    [Test]
-    public void OneIsI()
+    [TestCase(1, "I")]
+    [TestCase(2, "II")]
+    [TestCase(3, "III")]
+    [TestCase(4, "IV")]
+    [TestCase(5, "V")]
+    [TestCase(6, "VI")]
+    public void ConvertsNumberToRoman(int number, string expected)
     {
         var converter = new RomanConverter();
-        Assert.AreEqual("I", converter.ToRoman(1));
+        var result = converter.ToRoman(number);
+        Assert.AreEqual(expected, result);
     }
-    
-    [Test]
-    public void TwoIsII()
-    {
-        var converter = new RomanConverter();
-        Assert.AreEqual("II", converter.ToRoman(2));
-    }
-    
-    [Test]
-    public void ThreeIsIII()
-    {
-        var converter = new RomanConverter();
-        Assert.AreEqual("III", converter.ToRoman(3));
-    }
-    
-        
-    [Test]
-    public void FourIsIV()
-    {
-        var converter = new RomanConverter();
-        Assert.AreEqual("IV", converter.ToRoman(4));
-    }
-    
-    [Test]
-    public void FiveIsV()
-    {
-        var converter = new RomanConverter();
-        Assert.AreEqual("V", converter.ToRoman(5));
-    }
-    
-    [Test]
-    public void SixIsVI()
-    {
-        var converter = new RomanConverter();
-        Assert.AreEqual("VI", converter.ToRoman(6));
-    }
-    
 }
