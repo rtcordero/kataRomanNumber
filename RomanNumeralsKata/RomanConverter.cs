@@ -10,58 +10,45 @@ public class RomanConverter
 
         while (number > 0)
         {
-            if(number >= 1000)
+            switch (number)
             {
-                result += "M";
-                number -= 1000;
-                continue;
+                case >= 1000:
+                    result += "M";
+                    number -= 1000;
+                    continue;
+                case >= 500:
+                    result += "D";
+                    number -= 500;
+                    continue;
+                case >= 100:
+                    result += "C";
+                    number -= 100;
+                    continue;
+                case >= 50:
+                    result += "L";
+                    number -= 50;
+                    continue;
+                case >= 10:
+                    result += "X";
+                    number -= 10;
+                    continue;
+                case >= 9:
+                    result += "IX";
+                    number -= 9;
+                    continue;
+                case >= 5:
+                    result += "V";
+                    number -= 5;
+                    continue;
+                case >= 4:
+                    result += "IV";
+                    number -= 4;
+                    continue;
+                default:
+                    result += "I";
+                    number -= 1;
+                    break;
             }
-            if (number>= 500)
-            {
-                result += "D";
-                number -= 500;
-                continue;
-            }
-            if (number>= 100)
-            {
-                result += "C";
-                number -= 100;
-                continue;
-            }
-            if (number>= 50)
-            {
-                result += "L";
-                number -= 50;
-                continue;
-            }
-            if (number>= 10)
-            {
-                result += "X";
-                number -= 10;
-                continue;
-            }
-            if (number>= 9)
-            {
-                result += "IX";
-                number -= 9;
-                continue;
-            }
-            if (number>= 5)
-            {
-                result += "V";
-                number -= 5;
-                continue;
-            }
-
-            if (number >= 4)
-            {
-                result += "IV";
-                number -= 4;
-                continue;
-            }
-
-            result += "I";
-            number -= 1;
         }
 
 
