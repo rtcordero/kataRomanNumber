@@ -1,0 +1,16 @@
+# Build Folders
+bin/
+obj/
+
+# Rider IDE
+.idea/
+*.sln.iml
+
+# User-specific files
+*.user
+*.suo
+*.userprefs
+
+# OS generated
+.DS_Store
+Thumbs.db
