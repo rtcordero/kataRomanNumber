@@ -24,6 +24,10 @@ public class RomanConverter
                     result += "C";
                     number -= 100;
                     continue;
+                case >= 90: //Sustracción
+                    result += "XC";
+                    number -= 90;
+                    continue;
                 case >= 50:
                     result += "L";
                     number -= 50;
