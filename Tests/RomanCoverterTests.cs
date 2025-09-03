@@ -26,4 +26,12 @@ public class RomanConverterTests
         Assert.AreEqual("III", converter.ToRoman(3));
     }
     
+        
+    [Test]
+    public void FourIsIV()
+    {
+        var converter = new RomanConverter();
+        Assert.AreEqual("IV", converter.ToRoman(4));
+    }
+    
 }
