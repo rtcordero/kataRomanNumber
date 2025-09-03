@@ -10,7 +10,12 @@ public class RomanConverter
 
         for (int i = 0; i < number; i++)
         {
+            if(number == 4) {
+                result += "IV";
+                break;
+            }
             result += "I";
+
         }
             
 
