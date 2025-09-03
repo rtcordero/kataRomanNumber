@@ -10,14 +10,14 @@ public class RomanConverter
 
         while (number > 0)
         {
-            if (number == 5)
+            if (number>= 5)
             {
                 result += "V";
                 number -= 5;
                 continue;
             }
 
-            if (number == 4)
+            if (number >= 4)
             {
                 result += "IV";
                 number -= 4;
