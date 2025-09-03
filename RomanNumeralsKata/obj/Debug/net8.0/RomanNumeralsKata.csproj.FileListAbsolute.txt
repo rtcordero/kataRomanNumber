@@ -1,0 +1,14 @@
+C:\Users\ruben.tejera\Documents\projects\leanmind\RomanNumeralsKata\RomanNumeralsKata\bin\Debug\net8.0\RomanNumeralsKata.exe
+C:\Users\ruben.tejera\Documents\projects\leanmind\RomanNumeralsKata\RomanNumeralsKata\bin\Debug\net8.0\RomanNumeralsKata.deps.json
+C:\Users\ruben.tejera\Documents\projects\leanmind\RomanNumeralsKata\RomanNumeralsKata\bin\Debug\net8.0\RomanNumeralsKata.runtimeconfig.json
+C:\Users\ruben.tejera\Documents\projects\leanmind\RomanNumeralsKata\RomanNumeralsKata\bin\Debug\net8.0\RomanNumeralsKata.dll
+C:\Users\ruben.tejera\Documents\projects\leanmind\RomanNumeralsKata\RomanNumeralsKata\bin\Debug\net8.0\RomanNumeralsKata.pdb
+C:\Users\ruben.tejera\Documents\projects\leanmind\RomanNumeralsKata\RomanNumeralsKata\obj\Debug\net8.0\RomanNumeralsKata.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ruben.tejera\Documents\projects\leanmind\RomanNumeralsKata\RomanNumeralsKata\obj\Debug\net8.0\RomanNumeralsKata.AssemblyInfoInputs.cache
+C:\Users\ruben.tejera\Documents\projects\leanmind\RomanNumeralsKata\RomanNumeralsKata\obj\Debug\net8.0\RomanNumeralsKata.AssemblyInfo.cs
+C:\Users\ruben.tejera\Documents\projects\leanmind\RomanNumeralsKata\RomanNumeralsKata\obj\Debug\net8.0\RomanNumeralsKata.csproj.CoreCompileInputs.cache
+C:\Users\ruben.tejera\Documents\projects\leanmind\RomanNumeralsKata\RomanNumeralsKata\obj\Debug\net8.0\RomanNumeralsKata.dll
+C:\Users\ruben.tejera\Documents\projects\leanmind\RomanNumeralsKata\RomanNumeralsKata\obj\Debug\net8.0\refint\RomanNumeralsKata.dll
+C:\Users\ruben.tejera\Documents\projects\leanmind\RomanNumeralsKata\RomanNumeralsKata\obj\Debug\net8.0\RomanNumeralsKata.pdb
+C:\Users\ruben.tejera\Documents\projects\leanmind\RomanNumeralsKata\RomanNumeralsKata\obj\Debug\net8.0\RomanNumeralsKata.genruntimeconfig.cache
+C:\Users\ruben.tejera\Documents\projects\leanmind\RomanNumeralsKata\RomanNumeralsKata\obj\Debug\net8.0\ref\RomanNumeralsKata.dll
